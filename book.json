@@ -1,0 +1,26 @@
+{
+  "plugins": ["styles-less", "ga", "github", "disqus", "advanced-emoji"],
+  "styles": {
+    "website": "styles/style.less"
+  },
+  "structure": {
+    "readme": "introduction.md"
+  },
+  "variables": {
+    "host": "Hanno"
+  },
+
+  "pluginsConfig": {
+    "ga": {
+        "token": "UA-XXXX-Y"
+    },
+
+    "github": {
+      "url": "https://github.com/your/repo"
+    },
+
+    "disqus": {
+      "shortName": "uxplaybook"
+    }
+  }
+}

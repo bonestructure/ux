@@ -1,0 +1,761 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>A/B testing | Introduction</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.2">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-disqus/plugin.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-advanced-emoji/emojify.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../../research/quantitative-research/survey.html" />
+    
+    
+    <link rel="prev" href="../../research/quantitative-research/index.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="2.2.1"
+        data-chapter-title="A/B testing"
+        data-filepath="research/quantitative-research/ab-testing.md"
+        data-basepath="../.."
+        data-revision="Tue Dec 01 2015 17:43:13 GMT+0100 (CET)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="intro/welcome.html">
+            
+                
+                    <a href="../../intro/welcome.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        UX Playbook
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="intro/principles.html">
+            
+                
+                    <a href="../../intro/principles.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        Principles
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="intro/psychology.html">
+            
+                
+                    <a href="../../intro/psychology.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        Psychology
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="intro/usability.html">
+            
+                
+                    <a href="../../intro/usability.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        Usability
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="research/research.html">
+            
+                
+                    <a href="../../research/research.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Research
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="research/qualitative-research/index.html">
+            
+                
+                    <a href="../../research/qualitative-research/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        Qualitative Research Toolbox
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="research/qualitative-research/user-interview.html">
+            
+                
+                    <a href="../../research/qualitative-research/user-interview.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.1.</b>
+                        
+                        User interview
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="research/qualitative-research/user-testing.html">
+            
+                
+                    <a href="../../research/qualitative-research/user-testing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.2.</b>
+                        
+                        User testing
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.1" data-path="research/qualitative-research/ninja-user-testing.html">
+            
+                
+                    <a href="../../research/qualitative-research/ninja-user-testing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.2.1.</b>
+                        
+                        Ninja user testing
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="research/qualitative-research/card-sorting.html">
+            
+                
+                    <a href="../../research/qualitative-research/card-sorting.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.3.</b>
+                        
+                        Card sorting
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="research/qualitative-research/ethnography-research.html">
+            
+                
+                    <a href="../../research/qualitative-research/ethnography-research.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.4.</b>
+                        
+                        Ethnography research
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="research/quantitative-research/index.html">
+            
+                
+                    <a href="../../research/quantitative-research/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Qantitative Research Toolbox
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.2.1" data-path="research/quantitative-research/ab-testing.html">
+            
+                
+                    <a href="../../research/quantitative-research/ab-testing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.1.</b>
+                        
+                        A/B testing
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="research/quantitative-research/survey.html">
+            
+                
+                    <a href="../../research/quantitative-research/survey.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.2.</b>
+                        
+                        Survey
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="research/quantitative-research/analitycs.html">
+            
+                
+                    <a href="../../research/quantitative-research/analitycs.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.3.</b>
+                        
+                        Analytics
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="research/quantitative-research/eye-tracking.html">
+            
+                
+                    <a href="../../research/quantitative-research/eye-tracking.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.4.</b>
+                        
+                        Eye tracking
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="research/quantitative-research/persona.html">
+            
+                
+                    <a href="../../research/quantitative-research/persona.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.5.</b>
+                        
+                        Persona
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="research/quantitative-research/expert-review.html">
+            
+                
+                    <a href="../../research/quantitative-research/expert-review.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.6.</b>
+                        
+                        Expert review
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="research/quantitative-research/journey-mapping.html">
+            
+                
+                    <a href="../../research/quantitative-research/journey-mapping.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.7.</b>
+                        
+                        Journey mapping
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="design/design.html">
+            
+                
+                    <a href="../../design/design.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Design
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="design/information-architecture.html">
+            
+                
+                    <a href="../../design/information-architecture.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Information Architecture
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="design/wireframing.html">
+            
+                
+                    <a href="../../design/wireframing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        Wireframing
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="design/prototyping.html">
+            
+                
+                    <a href="../../design/prototyping.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        Prototyping
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="design/content.html">
+            
+                
+                    <a href="../../design/content.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        Content
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="design/interaction-design.html">
+            
+                
+                    <a href="../../design/interaction-design.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                        Interaction design
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="design/visual-design.html">
+            
+                
+                    <a href="../../design/visual-design.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.6.</b>
+                        
+                        Visual design
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="design/typography.html">
+            
+                
+                    <a href="../../design/typography.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.7.</b>
+                        
+                        Typography
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="measure-iterate/measure-iterate.html">
+            
+                
+                    <a href="../../measure-iterate/measure-iterate.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Measure and Iterate
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="measure-iterate/lean-design.html">
+            
+                
+                    <a href="../../measure-iterate/lean-design.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        Lean design
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="measure-iterate/iteration.html">
+            
+                
+                    <a href="../../measure-iterate/iteration.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        Iteration
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../" >Introduction</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="ab-testing">A/B testing</h1>
+<p>If you want to answer either of the following questions, you&apos;ll need some A/B testing:</p>
+<ol>
+<li>&quot;Which version of our design is going to produce better results?&quot;</li>
+<li>&quot;Is the change I&apos;m planning to make to the product going to be effective? Will it improve the conversion rate, and should I go ahead and implement it?&quot;</li>
+</ol>
+<p>It&apos;s a popular quantitative and behavioural research tool which can help us decide between two competing alternatives. Conducting A/B test is cheap, protective and quick way to decide if a design is an improvement or not.</p>
+<h2 id="what-and-why">What, and why?</h2>
+<h3 id="what-can-you-ab-test">What can you A/B test</h3>
+<ul>
+<li>Any website with a measurable goal: an e-commerce website, SaaS product signup, media website for ad clicks or subscriptions</li>
+<li>Basically any website with a goal to convert visitor to something else</li>
+<li>Text: headlines, sub-headlines, paragraphs</li>
+<li>Call to action (CTA) buttons</li>
+<li>Amount of content: short/long versions</li>
+<li>Different layouts</li>
+<li>Different checkout/signup/etc flows</li>
+<li>Different styles</li>
+<li>Pricing structures</li>
+<li>Promotions</li>
+</ul>
+<h3 id="why-should-you-ab-test">Why should you A/B test</h3>
+<ul>
+<li>To get factual evidence for the success of your changes, rather than relying on intuition</li>
+<li>To increase conversion</li>
+<li>It&apos;s fairly quick and cost effective</li>
+<li>It&apos;s relatively risk-free: only affecting a portion of your traffic</li>
+<li>To minimise the risk of new design changes having a negative impact on conversion</li>
+<li>To uncover potential</li>
+</ul>
+<h2 id="how-to-run-a-good-ab-test">How to run a good A/B test</h2>
+<h3 id="the-structure">The structure</h3>
+<ol>
+<li>Construct your starting point: a question that you want to answer. For example, <em>&quot;Why is my conversion rate so low?&quot;</em></li>
+<li>Do your research: use an analytics software to uncover user behaviour, interview users, send out surveys</li>
+<li>Make sure you have enough traffic that your test will have statistical significance (see below)</li>
+<li>Design different variants</li>
+<li>Start the experiment using Google Analytics or Optimizely</li>
+<li>Evaluate the results</li>
+<li>Implement the winning version and look for improvement</li>
+</ol>
+<h3 id="statistical-significance">Statistical significance</h3>
+<p>To get accurate and statistically significant results you need to test your designs with <strong>hundreds or even thousands</strong> of participants. You also need to be careful about running more than one test at once: you need to be sure that the results you are recording can be attributed to the change you&apos;re testing.</p>
+<p>Since A/B testing is usually automatised with some software such as Google Analytics or Optimizely, you should follow their suggestions and leave the test running till it says it has enough results. This will give you the confidence in the better performing version.</p>
+<p>If you don&apos;t have the traffic, or the situation which would allow you to gain definite statistical significance, then you should take a step back and look at <em>qualitative</em> user research techniques instead.</p>
+<p>You can read more about statistical significance on the following pages:</p>
+<ul>
+<li><a href="http://www.cennydd.com/blog/statistical-significance-other-ab-pitfalls/?s=2009/statistical-significance-other-ab-test-pitfalls/" target="_blank">Statistical significance &amp; other A/B pitfalls</a></li>
+<li><a href="http://20bits.com/article/statistical-analysis-and-ab-testing" target="_blank">Statistical Analysis and A/B Testing</a></li>
+</ul>
+<h3 id="tips-and-best-practices">Tips and best practices</h3>
+<ul>
+<li>Always test the original design so that you have a baseline.</li>
+<li>Always wait until the end of the experiment. Be wary of declaring a &apos;winner&apos; after positive early results.</li>
+<li>Don&apos;t surprise your users: if you&apos;re testing a significant modification, consider sending only a portion of the traffic (5-25%) to the test.</li>
+<li>Intuition and gut feeling doesn&apos;t work in A/B testing. The metrics are king.</li>
+<li>Major modifications tend to deliver better, more dependable results than small fixes.</li>
+<li>Testing is a never-ending job: there is always room for improvement.</li>
+</ul>
+<h2 id="tools-for-testing">Tools for testing</h2>
+<ul>
+<li><a href="https://www.optimizely.com/" target="_blank">Optimizely</a></li>
+<li><a href="https://www.google.com/analytics/" target="_blank">Google Analytics Experiments</a></li>
+<li><a href="fivesecondtest.com">fivesecondtest.com</a><ul>
+<li><strong>Five Second Test:</strong> A Five Second Test shows your design to the tester for just five seconds. After the five seconds are up, the tester is asked a series of questions that you can specify, such as &quot;What product do you think this company sells?&quot;, or &quot;What was the company name?&quot;.</li>
+<li><strong>Click Test:</strong> A Click Test records where users click on your design. The tester is asked to follow the instructions you specify, such as &quot;Where would you click to view your shopping cart?&quot;, or &quot;Where would you click to choose a template for your blog?&quot;.</li>
+<li><strong>Preference Test:</strong> Preference Tests ask the tester to choose between two design alternatives. You can ask testers to choose based on a particular attribute (eg. &quot;Which design looks more trustworthy?&quot;), or simply ask them which they prefer overall.</li>
+</ul>
+</li>
+</ul>
+<h3 id="interesting-ab-testing-case-studies">Interesting A/B testing case studies</h3>
+<ul>
+<li><a href="https://signalvnoise.com/posts/1525-writing-decisions-headline-tests-on-the-highrise-signup-page" target="_blank">Writing Decisions: Headline tests on the Highrise signup page</a></li>
+<li><a href="https://vwo.com/blog/ab-test-case-study-how-two-magical-words-increased-conversion-rate-by-28/" target="_blank">How two magical words increased conversion rate by 28% </a></li>
+<li><a href="http://www.getelastic.com/single-vs-two-page-checkout/" target="_blank">A/B Test Case Study: Single Page vs. Multi-Step Checkout</a></li>
+</ul>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../../research/quantitative-research/index.html" class="navigation navigation-prev " aria-label="Previous page: Qantitative Research Toolbox"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../../research/quantitative-research/survey.html" class="navigation navigation-next " aria-label="Next page: Survey"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../../gitbook/app.js"></script>
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-ga/plugin.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-github/plugin.js"></script>
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-disqus/plugin.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"ga":{"token":"UA-XXXX-Y","configuration":"auto"},"github":{"url":"https://github.com/your/repo"},"disqus":{"shortName":"uxplaybook","useIdentifier":false},"styles-less":{},"advanced-emoji":{"myConfigKey":"test"},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
