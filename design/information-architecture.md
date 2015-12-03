@@ -1,15 +1,15 @@
 # Information Architecture
 
-Information architecture is about to figure out the best way to lay out the content. It is about organising the content into hierarchies of information.
+Information architecture is about to figure out the best way to organise your design. It is about organising the element into hierarchies of information.
 
-To do great IA work you have to do a lot of research (see User Research section of this wiki). Most of the time the Information Architecture's role will become a joint role with other design and/or content related roles.
+To do great IA work you have to do a research (see User Research section of this wiki). Most of the time the Information Architecture's role will become a joint role with other design and/or content related roles.
 
 Understanding the hierarchy between different types of content is essential for creating great wireframes (and later prototypes and products).
 
 ###How does a good information architecture looks like in an application?
 - User can find the page he is looking for
 - User can find the information where they think it should be
-- User can find the website layout straightforward
+- The website layout straightforward
 - Filling forms are easy
 
 And

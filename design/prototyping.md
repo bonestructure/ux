@@ -2,7 +2,7 @@
 
 Prototypes are interactive wireframes. We build prototypes to put it in front of the users, get feedback and improve your prototype. This is an iterative process which allows us to build great products.
 
-Prototyping is about building, experimenting and learning during and iterative process. It involves the user and it’s shortening the feedback loop. Usually the prototyping is started with a wireframing so we are mostly aware of the position of the different elements.
+Prototyping is about building, experimenting and learning during and iterative process. Good design process involves the user and it’s shortening the feedback loop. Usually the prototyping is started with a wireframing so we are mostly aware of the position of the different elements.
 
 Based on the detail you want to achieve we can talk about low, medium and high fidelity prototyping. Usually the higher the fidelity is, the more work is required.
 

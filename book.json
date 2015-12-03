@@ -1,7 +1,7 @@
 {
   "plugins": ["styles-less", "ga", "github", "disqus", "advanced-emoji"],
   "styles": {
-    "website": "styles/style.less"
+    "website": "styles/website.less"
   },
   "structure": {
     "readme": "introduction.md"
