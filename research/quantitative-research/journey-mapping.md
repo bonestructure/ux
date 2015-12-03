@@ -1,7 +1,5 @@
 # Journey mapping
 
-> TODO: Consider the appropriate location for this page, and whether to move it into the DT wiki instead of keeping it here.
-
 We use this technique to discover different steps in the user's interaction with our product. The goal of the journey mapping is to put together a visual overview of all the different decisions our users need to take in order to use the product.
 
 ##Why use journey maps?

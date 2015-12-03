@@ -1,6 +1,8 @@
 # Psychology
 
-TODO: Chop this page up and move the components into measure/design.
+Lots of people coming from pshychology background to UX design. This isn't a surprise tho: there are plenty of common intersections. There are plenty of psychology research related to UX design and UX designers like to relate to them.
+
+Cognitive dissonence
 
 ###Actual vs. Reported Behaviour
 http://www.uxbooth.com/articles/design-research/bridging-the-gap-between-actual-and-reported-behavior/
