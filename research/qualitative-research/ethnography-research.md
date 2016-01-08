@@ -6,7 +6,7 @@ This is about observing people in their natural working or living environment. S
 
 The key here is to spot and capture the "aha!" moments while discovering user motivations. These "aha!" moments are usually surprising and they can be the source of great innovation.
 
-Ethnography research is valuable because it gives lots of insight into _context_, which can be hard to get from other, more formal testing techniques. Learning more about this context helps us to understand how it affects the UX, outside of lab conditions.
+Ethnography research is valuable because it gives lots of insight in *context*, which can be hard to get from other, more formal testing techniques. Learning more about this context helps us to understand how it affects the UX, outside of lab conditions.
 
 ##What is it good for
 

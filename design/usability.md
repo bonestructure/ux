@@ -13,7 +13,7 @@ Basically any user research tool allows you to extract usability problems. The m
 ##Best practises
 - **You have to test your product regularly**: without testing you can't discover real usability problems.
 - **You can design certain actions to be hard to perform**: it is common to design something hard to use. Unfortunately this is an increasing trend amongst products, like LinkedIn, which is making it explicitly hard to cancel a subscription.
-- **Consistency**:
+- **Consistency**: keep your application consistent.
 - **Pay attention on the on-boarding process**: on-boarding users is especially important to keep your retention rate high.
 - **Learnability**:
 - **Study platform specific guidelines**: if you are designing for mobile/tablet [iOS](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/) and [Android](https://developer.android.com/design/index.html) guidelines are essential to provide native experience.

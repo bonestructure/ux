@@ -17,4 +17,4 @@ We've put together a comprehensive list of resources for getting into UX, and be
 All shipmates are encouraged to contribute to areas of this Playbook where they feel the detail is weak. Just keep in mind a couple of guidelines:
 
 * We're not trying to write the most comprehensive guide to UX ever. Where others have explained things better, link to their resources or reading, and offer a summary.
-* Try to be as lean and practical as possible in your suggestions. There are lots of big, heavy UX guides--the Playbook should be a lot more practical than these.
+* Try to be as lean and practical as possible in your suggestions. There are lots of big, heavy UX guides--the UX Playbook should be a lot more practical than these.

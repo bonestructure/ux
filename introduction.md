@@ -2,9 +2,9 @@
 
 Welcome to {{ book.host }}'s User Experience Playbook.
 
-The aim of this book is to provide a practical and comprehensive guide for UX design. It's not entirely for beginners; it's always handy to have some deeper understanding of one of the related fields. This can be design, programming or product management. Since UX is highly connected to these fields, it's useful to have a general understanding of how these things work.
+The aim of this book is to provide a practical guide for UX design. It's not entirely for beginners; it's always handy to have some deeper understanding of one of the related fields. This can be design, programming or product management. Since UX is connected to these fields, it's useful to have a general understanding of how these things work.
 
-It's the UX designers role is to build the connections between the users, buseness and tech.
+It's the UX designers role is to build the connections between the users, business and tech.
 * You need to satisfy your users.
 * You need to onboard the developers with the design and make sure it's technically feasable.
 * You need to make sure the business goals are met.
