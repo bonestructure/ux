@@ -1,5 +1,10 @@
 # Introduction
 
+---
+Please note: this book is under development and might contain unfinished sentences.
+
+---
+
 Welcome to {{ book.host }}'s User Experience Playbook.
 
 The aim of this book is to provide a practical guide for UX design. It's not entirely for beginners; it's always handy to have some deeper understanding of one of the related fields. This can be design, programming or product management. Since UX is connected to these fields, it's useful to have a general understanding of how these things work.
