@@ -1,5 +1,16 @@
 # UX Playbook
 
+
+
+---
+
+Please note: this book is under development and might contain unfinished sentences.
+
+
+---
+
+
+
 ##How to consume this information
 
 You're probably familiar on some level with a lot of stuff here. The aim of reading and learning these is to organise your thoughts and develop a common understanding around topics which we use every day.
