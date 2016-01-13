@@ -3,9 +3,7 @@
 
 
 ---
-
 Please note: this book is under development and might contain unfinished sentences.
-
 
 ---
 
